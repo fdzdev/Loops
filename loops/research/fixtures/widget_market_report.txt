@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head><title>2026 Widget Market Report — Globex Research</title></head>
+<body>
+<h1>2026 Global Widget Market Report</h1>
+<script>console.log("this script text must NOT leak into extracted page text");</script>
+<style>.banner{color:red}</style>
+<section>
+  <h2>Market size</h2>
+  <p>
+    The global widget market reached <strong>$4.2 billion</strong> in 2025,
+    up 11% year over year. Globex Research projects the market will grow at
+    a compound annual growth rate (CAGR) of <strong>9%</strong> through 2030,
+    reaching roughly $6.5 billion.
+  </p>
+</section>
+<section>
+  <h2>Share leaders</h2>
+  <p>
+    Acme Cloud held the largest share of the premium segment at 27%, followed
+    by Initech at 19% and Hooli at 14%. The remaining 40% was fragmented across
+    more than 200 smaller vendors.
+  </p>
+</section>
+<section>
+  <h2>Regional notes</h2>
+  <p>
+    North America accounted for 41% of revenue. The fastest-growing region was
+    Southeast Asia, at 18% annual growth, driven by mobile-first adoption.
+  </p>
+</section>
+<footer>(c) 2026 Globex Research. Methodology: survey of 1,200 buyers.</footer>
+</body>
+</html>

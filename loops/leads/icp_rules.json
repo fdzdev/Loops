@@ -1,0 +1,16 @@
+{
+  "_comment": "ICP (ideal-customer-profile) qualification rules. Edit this file, not the verifier. A lead is confirmed only if EVERY enabled rule passes; the model never overrides these.",
+  "min_headcount": 50,
+  "allowed_industries": [
+    "software",
+    "technology",
+    "saas",
+    "fintech",
+    "developer tools",
+    "data infrastructure",
+    "cybersecurity",
+    "cloud"
+  ],
+  "allowed_countries": ["US", "CA", "GB", "DE", "NL", "FR", "FI", "SE", "IE", "AU"],
+  "require_domain_resolves": true
+}

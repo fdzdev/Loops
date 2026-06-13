@@ -1,0 +1,13 @@
+name,email,company,domain,headcount,country
+Ada Lovelace,ada@analytical-engines.io,Analytical Engines,analytical-engines.io,420,US
+Grace Hopper,grace@navsoft.example,NavSoft Systems,navsoft.example,1200,US
+Alan Turing,alan@bombe-labs.example,Bombe Labs,bombe-labs.example,12,GB
+Katherine Johnson,k.johnson@orbital-compute.example,Orbital Compute,orbital-compute.example,300,US
+Margaret Hamilton,mh@apollo-guidance.example,Apollo Guidance Software,apollo-guidance.example,85,US
+Edsger Dijkstra,edsger@shortest-path.nl,Shortest Path BV,shortest-path.nl,40,NL
+Barbara Liskov,liskov@substitution.example,Substitution Inc,substitution.example,9,US
+Tim Berners-Lee,tim@www-consulting.example,WWW Consulting,www-consulting.example,5000,GB
+Donald Knuth,knuth@literate-press.example,Literate Press,literate-press.example,3,US
+Linus Torvalds,linus,Kernel Foundry,kernel-foundry.example,250,FI
+Marie Curie,marie@no-such-domain-xyzqwerty.example,Radium Research,no-such-domain-xyzqwerty.example,150,FR
+Carl Friedrich Gauss,gauss@gaussian-bakery.example,Gaussian Bakery,gaussian-bakery.example,60,DE

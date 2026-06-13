@@ -1,0 +1,26 @@
+{
+  "_comment": "A CI flaky-test report fixture. A real one comes from a rerun plugin (pytest-rerunfailures, flaky-bot, or a CI dashboard's flake detector) that records which tests pass on retry. The loop's generator parses this into one Candidate per flaky test. `node_id` is the pytest node id and becomes the dedupe_key. `target_file` is the file the executor rewrites and the verifier re-runs.",
+  "generated_by": "ci-flake-detector v1.2 (last 200 runs)",
+  "flaky_tests": [
+    {
+      "node_id": "loops/flaky/demo/test_flaky_demo.py::test_recent_event_timestamp",
+      "target_file": "loops/flaky/demo/test_flaky_demo.py",
+      "test_name": "test_recent_event_timestamp",
+      "pass_rate": 0.71,
+      "runs": 200,
+      "failures": 58,
+      "symptom": "Intermittent AssertionError: observed == expected. Depends on the wall clock; flaps when the call straddles a 10-second bucket boundary.",
+      "suspected_cause": "time"
+    },
+    {
+      "node_id": "loops/flaky/demo/test_flaky_demo.py::test_shuffle_picks_low_card",
+      "target_file": "loops/flaky/demo/test_flaky_demo.py",
+      "test_name": "test_shuffle_picks_low_card",
+      "pass_rate": 0.70,
+      "runs": 200,
+      "failures": 60,
+      "symptom": "Intermittent AssertionError: min(hand) <= 5. Depends on an unseeded RNG; flaps when all three drawn cards are high.",
+      "suspected_cause": "random"
+    }
+  ]
+}

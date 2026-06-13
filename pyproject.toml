@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentloops"
+version = "0.1.0"
+description = "A library of self-verifying agent loops. The verifier is the product."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Facundo Fernández" }]
+dependencies = [
+    "anthropic>=0.40",
+    "pydantic>=2.0",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+finmodel = ["openpyxl>=3.1"]
+nvidia = ["openai>=1.0"]  # OpenAI-compatible client for NVIDIA Nemotron / other free models
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["agentloops*", "loops*"]

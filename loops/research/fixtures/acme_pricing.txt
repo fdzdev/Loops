@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>Acme Cloud — Pricing</title></head>
+<body>
+<h1>Acme Cloud Pricing</h1>
+<p>
+  Acme Cloud offers three plans. The <strong>Starter</strong> plan is
+  free for up to 3 seats and 5 GB of storage. The <strong>Team</strong>
+  plan costs <strong>$12 per user per month</strong>, billed annually, and
+  includes 100 GB of pooled storage and priority email support.
+</p>
+<p>
+  Our <strong>Enterprise</strong> plan is custom-priced and adds SAML
+  single sign-on, a 99.95% uptime SLA, and a dedicated customer success
+  manager. Enterprise contracts start at a 50-seat minimum.
+</p>
+<p>
+  All paid plans include unlimited projects. Annual billing saves 20%
+  compared to paying month to month.
+</p>
+<footer>Last updated March 2026. Prices are in USD and exclude tax.</footer>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "_comment": "Offline DNS fixtures for demo mode. Maps a domain -> whether it resolves. Used by the FixtureResolver so the deterministic domain check runs without live DNS. In real use, swap to SocketResolver (live getaddrinfo).",
+  "analytical-engines.io": true,
+  "navsoft.example": true,
+  "bombe-labs.example": true,
+  "orbital-compute.example": true,
+  "apollo-guidance.example": true,
+  "shortest-path.nl": true,
+  "substitution.example": true,
+  "www-consulting.example": true,
+  "literate-press.example": true,
+  "kernel-foundry.example": true,
+  "gaussian-bakery.example": true,
+  "no-such-domain-xyzqwerty.example": false
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PRICE-1",
+    "title": "Multi-quantity discounted lines are overcharged",
+    "status": "open",
+    "buggy_module": "buggy_lib/pricing.py",
+    "repro_test": "tests/test_pricing_repro.py",
+    "body": "line_total discounts only the first unit instead of every unit. A 3-unit line at $10 with 10% off should cost 27.0 (3 * 10 * 0.9) but the cart charges 29.0. Apply the discount rate to the whole line."
+  },
+  {
+    "id": "TEXT-1",
+    "title": "slugify emits double hyphens and a trailing hyphen",
+    "status": "open",
+    "buggy_module": "buggy_lib/text.py",
+    "repro_test": "tests/test_text_repro.py",
+    "body": "slugify('Hello,  World!') returns 'hello---world-' instead of 'hello-world'. Runs of separators must collapse to a single hyphen and leading/trailing hyphens must be trimmed."
+  },
+  {
+    "id": "OLD-9",
+    "title": "Legacy date parser crash (already shipped)",
+    "status": "closed",
+    "buggy_module": "buggy_lib/legacy.py",
+    "repro_test": "tests/test_legacy.py",
+    "body": "Closed issue kept in the tracker to prove the generator skips non-open issues. The loop must not propose a candidate for this."
+  }
+]
